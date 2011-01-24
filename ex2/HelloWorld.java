@@ -14,7 +14,7 @@ public class HelloWorld
 	{
 		
 		LCD.drawString("Hello, World.", 0, 0); //Prints the string on the NXT
-		Button.waitForPress();
+		Button.waitForPress(); //Waits for any button to be pressed before continuing
 		
 	} //main
 	

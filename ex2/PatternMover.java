@@ -23,13 +23,13 @@ public class PatternMover
 		      public void buttonPressed(Button b) 
 			  {
 				LCD.drawString("Stopping", 0, 0);
-				pilot.stop();
+				pilot.stop(); //stops the NXT
 		      }
 
 		      public void buttonReleased(Button b) 
 			  {
 				LCD.clear();
-				System.exit(0);
+				System.exit(0); //exits the program
 			  }
 		});
 		
@@ -38,7 +38,7 @@ public class PatternMover
 			  {
 				if(pattern)
 				{
-					pattern = false;
+					pattern = false; //changes the pattern that is currently running
 				}	else	{
 					pattern = true;
 				}
